@@ -15,11 +15,6 @@ class Song
     @@songs << self
   end
 
-  #class method that searches for a specific song in @@songs 
-  #def self.find_by_name(name)
-   # @@songs.detect{|a| a.name == name}
-  #end
-
   #artist writer method 
   def artist=(artist)
     @artist = artist
