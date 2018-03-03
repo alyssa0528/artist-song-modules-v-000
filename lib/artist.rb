@@ -13,7 +13,7 @@ class Artist
   #creates new artist and adds that instance to @@artists array. each artist also has a @songs array
   def initialize
    # @@artists << self
-   super
+    super
     @songs = []
   end
   
